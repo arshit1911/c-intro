@@ -7,6 +7,5 @@ int main(){
 
   printf("Enter number b");
   scanf("%d", &b);
-
   return 0;
 }
