@@ -2,8 +2,13 @@
 
 int main()
 {
-    int length = 3, breadth = 5;
-    int area = length * breadth;
-    printf("Area of this rectangle is %d", area);
+    int length, breadth;
+    printf("What is the length of this rectangle\n");
+    scanf("%d", &length);
+
+    printf("what is the breadth of this rectangle\n");
+    scanf("%d", &breadth);
+
+    printf("The area of your rectangle is %d", length * breadth);
     return 0;
 }
